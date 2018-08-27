@@ -7,7 +7,7 @@ El proyecto no necesita de ninguna descarga adicional para poder correrlo. Si se
 
 ## Autores
 Nicolás Simmonds Samper
-[Link de la página](https://nicoals9415.github.io)
+[Link de la página](https://nicolas9415.github.io)
 
 ## Screenshot
 ![Foto de la pagina](https://raw.githubusercontent.com/Nicolas9415/Nicolas9415.github.io/master/Captura.PNG)
