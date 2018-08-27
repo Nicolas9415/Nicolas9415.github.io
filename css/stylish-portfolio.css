@@ -146,9 +146,6 @@ h6 {
 
 /* Side Menu */
 
-#
-/* Side Menu */
-
 #sidebar-wrapper {
     position: fixed;
     z-index: 2;
@@ -386,7 +383,7 @@ h6 {
 
 
 
-#hobbies2{
+.hobbies2{
     width:300px;
     height:auto;
     display:inline-block;
@@ -395,33 +392,33 @@ h6 {
     margin:4px;
   }
   
-  #hobbies2 img{
+  .hobbies2 img{
     transition:.3s;
     border-radius:4px;
 
   }
   
-  #hobbies2:hover img{
+  .hobbies2:hover img{
     filter:blur(2px) brightness(60%);
     box-shadow:0 0 16px cyan;
   }
    
-  #hobbies2 :not(img){
+  .hobbies2 :not(img){
     position:absolute;
     z-index:1;
     top:30%;
     width:100%;
     text-align:center;
-    color:#fff;
+    color:.fff;
     opacity:0;
     transition:.3s;
   }
   
-  #hobbies2 h3{
+  .hobbies2 h3{
     top:50%
   }
   
-  #hobbies2:hover :not(img){
+  .hobbies2:hover :not(img){
     opacity:1;
   }
 

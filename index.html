@@ -18,49 +18,20 @@
     <!--Loading bar css file-->
     <link rel="stylesheet" href="css/jquery.lineProgressbar.min.css">
     <!--Owl carousel-->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body id="page-top">
-    <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">      
-      <i class="fas fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Curious about me?</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Home</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#portfolio">Projects</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Header -->
+        <!-- Header -->
     <header class="masthead d-flex">
         <div class="container text-center my-auto">
             <h1 class="mb-1">Nicolás Simmonds Samper</h1>
-            <h3 class="mb-5">
-          <div id="changeText"></div>
+            <h3 class="mb-5" id="changeText">
         </h3>
         </div>
     </header>
     <!-- About -->
-    <section class="container    bg-light" id="about">
+    <section class="container bg-light" id="about">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"><img src="./img/me.jpg" alt="me" id="img-about"></div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="txt-about">
@@ -70,7 +41,7 @@
             </div>
         </div>
     </section>
-    <!-- Callout -->
+    <!-- Skills -->
     <div class="container-fluid">
         <div class="pb">
             <div class="row" id="skills">
@@ -120,8 +91,9 @@
             </a>
                 </div>
             </div>
+        </div>
     </section>
-    <!-- Call to Action <--></-->
+    <!-- Hobbies<-->
     <section class=" bg-primary text-white aboutH container">
         <div class="row">
             <div id="hobbies" align="right" class="col-md-4 desc">
@@ -130,15 +102,15 @@
             </div>
             <div class=col-md-1></div>
             <div class="slick-carousel col-md-7" id="pics">
-                <div class="pic" id="hobbies2" data-text="Golf">
+                <div class="hobbies2" data-text="Golf">
                     <h3>GOLF</h3>
                     <img class="img-fluid" src="img/golf.jpg">
                 </div>
-                <div class="pic2" id="hobbies2" data-text="Football">
+                <div class="hobbies2" data-text="Football">
                     <img class="img-fluid" src="img/futbol.jpg">
                     <h3>Football</h3>
                 </div>
-                <div class="pic3" id="hobbies2" data-text="Movies and Series">
+                <div class="hobbies2" data-text="Movies and Series">
                     <img class="img-fluid" src="img/movies.jpg">
                     <h3>Watching Movies and Series</h3>
                 </div>
@@ -182,6 +154,7 @@
     <!--Loading bar js plugin-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery.lineProgressbar.js"></script>
+    <script src="js/stylish-portfolio.js"></script>
     <script src="js/my.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>

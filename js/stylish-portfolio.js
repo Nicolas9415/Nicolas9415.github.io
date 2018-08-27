@@ -35,10 +35,71 @@
     var scrollDistance = $(this).scrollTop();
     if (scrollDistance > 100) {
       $('.scroll-to-top').fadeIn();
+
     } else {
       $('.scroll-to-top').fadeOut();
     }
   });
+
+  $(document).scroll(function()
+  {
+    var scrollD=$(this).scrollTop();
+    if(scrollD >1000)
+    {
+      $('#progressbar1').LineProgressbar({
+        percentage: 85,
+        width: '500px',
+        duration: 3000,
+        height: '20px',
+        radius: '15px',
+        fillBackgroundColor: '#e67e22'
+
+    });
+    $('#progressbar2').LineProgressbar({
+        percentage: 60,
+        width: '500px',
+        duration: 3000,
+        height: '20px',
+        radius: '15px',
+        fillBackgroundColor: '#e67e22'
+
+
+    });
+    $('#progressbar3').LineProgressbar({
+        percentage: 60,
+        width: '500px',
+        duration: 3000,
+        height: '20px',
+        radius: '15px',
+        fillBackgroundColor: '#e67e22'
+
+
+    });
+    $('#progressbar4').LineProgressbar({
+        percentage: 60,
+        width: '500px',
+        duration: 3000,
+        height: '20px',
+        radius: '15px',
+        fillBackgroundColor: '#e67e22'
+
+
+    });
+    $('#progressbar').LineProgressbar({
+        percentage: 60,
+        width: '500px',
+        duration: 3000,
+        height: '20px',
+        radius: '15px',
+        fillBackgroundColor: '#e67e22'
+
+
+    }); 
+
+    }
+  });
+
+
 }
 
 
