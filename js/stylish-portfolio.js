@@ -41,14 +41,15 @@
     }
   });
 
-  $(document).scroll(function()
+  $(document).on("scroll",function()
   {
     var scrollD=$(this).scrollTop();
-    if(scrollD >1000)
+    if(scrollD >730)
     {
+      $(document).off("scroll");
       $('#progressbar1').LineProgressbar({
         percentage: 85,
-        width: '500px',
+        width: '100%',
         duration: 3000,
         height: '20px',
         radius: '15px',
@@ -56,8 +57,8 @@
 
     });
     $('#progressbar2').LineProgressbar({
-        percentage: 60,
-        width: '500px',
+        percentage: 65,
+        width: '100%',
         duration: 3000,
         height: '20px',
         radius: '15px',
@@ -66,8 +67,8 @@
 
     });
     $('#progressbar3').LineProgressbar({
-        percentage: 60,
-        width: '500px',
+        percentage: 45,
+        width: '100%',
         duration: 3000,
         height: '20px',
         radius: '15px',
@@ -76,8 +77,8 @@
 
     });
     $('#progressbar4').LineProgressbar({
-        percentage: 60,
-        width: '500px',
+        percentage: 40,
+        width: '100%',
         duration: 3000,
         height: '20px',
         radius: '15px',
@@ -87,7 +88,7 @@
     });
     $('#progressbar').LineProgressbar({
         percentage: 60,
-        width: '500px',
+        width: '100%',
         duration: 3000,
         height: '20px',
         radius: '15px',
